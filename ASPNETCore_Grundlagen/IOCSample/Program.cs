@@ -21,6 +21,15 @@ namespace IOCSample
             //ICar mockCar = new MockCar();
             services.AddSingleton<ICar, MockCar>();
 
+            //(Problemstellung) Variante 1 
+            //services.AddSingleton<ICar, Car>();
+
+            //(Problemstellung) Variante 2
+            //services.AddScoped<ICar, Car>();
+
+
+
+
 
             //Initialisierungphase ist 'services.BuildServiceProvider();' fertig
 
@@ -46,7 +55,7 @@ namespace IOCSample
 
     public interface ICar
     {
-        string Id { get; set; }
+        int Id { get; set; }
         string Brand { get; set; }
         string Model { get; set; }
     }
@@ -70,7 +79,7 @@ namespace IOCSample
 
     public class Car : ICar
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string Brand { get; set; }
         public string Model { get; set; }
     }
@@ -88,7 +97,7 @@ namespace IOCSample
 
     public class MockCar : ICar
     {
-        public string Id { get; set; } = 1;
+        public int Id { get; set; } = 1;
         public string Brand { get; set; } = "BMW";
         public string Model { get; set; } = "Z8";
     }

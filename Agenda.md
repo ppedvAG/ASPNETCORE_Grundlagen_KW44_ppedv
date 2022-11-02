@@ -14,7 +14,11 @@ Modul 0: Was ist ASP.NET Core?
 - [ ] Überblick ASP.NET Core
 - [ ] Neuerungen in ASP.NET Core 6
 
-Modul 1: IOC Container
+
+Modul 1.0: SOLID 
+- [ ] Solid-Regeln
+
+Modul 1.1: IOC Container
 - [ ] Dependency Injections in ASP.NET Core
 
 Modul 2: ASP.NET Core Grundlagen

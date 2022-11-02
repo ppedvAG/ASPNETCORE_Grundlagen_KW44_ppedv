@@ -36,7 +36,7 @@
 
     public interface ICar
     {
-        string Id { get; set; }
+        int Id { get; set; }
         string Brand { get; set; }  
         string Model { get; set; }
     }
@@ -60,7 +60,7 @@
 
     public class Car : ICar
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string Brand { get; set; }
         public string Model { get; set; }
     }
@@ -78,7 +78,7 @@
 
     public class MockCar : ICar
     {
-        public string Id { get; set; } = 1;
+        public int Id { get; set; } = 1;
         public string Brand { get; set; } = "BMW";
         public string Model { get; set; } = "Z8";
     }

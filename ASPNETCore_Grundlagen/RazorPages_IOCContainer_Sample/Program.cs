@@ -14,7 +14,7 @@ WebApplication app = builder.Build();
 using (IServiceScope scope = app.Services.CreateScope())
 {
     ITimeService? timeService = scope.ServiceProvider.GetService<ITimeService>();
-    TimeService timeService2 = scope.ServiceProvider.GetRequiredService<TimeService>(); 
+    ITimeService timeService2 = scope.ServiceProvider.GetRequiredService<ITimeService>(); 
 }
 
 ITimeService? timeService3 = app.Services.GetService<ITimeService>();

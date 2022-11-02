@@ -8,6 +8,7 @@ namespace RazorPages_IOCContainer_Sample.Pages
     {
         public string CurrentTime { get; set; }
 
+
         public void OnGet()
         {
             ITimeService? timeService = this.HttpContext.RequestServices.GetService<ITimeService>();
