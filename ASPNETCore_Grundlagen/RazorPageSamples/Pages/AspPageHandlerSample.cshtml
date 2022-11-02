@@ -1,0 +1,31 @@
+﻿@page
+@model RazorPageSamples.Pages.AspPageHandlerSampleModel
+@{
+}
+
+<form method="post">
+    <input name="eins" /> <br />
+    <input name="zwei" />
+
+    <hr />
+    <button type="submit" asp-page-handler="add">addieren</button>
+    <button type="submit" asp-page-handler="sub">subtrahiere</button>
+    @Model.Ergebnis
+</form>
+
+
+
+<hr />
+
+
+<h1>Zweites Formular</h1>
+
+<form method="post">
+    <input name="eins" /> <br />
+    <input name="zwei" />
+
+    <hr />
+    <button type="submit" asp-page-handler="mult">mulitplizieren</button>
+    <button type="submit" asp-page-handler="div">dividieren</button>
+    @Model.Ergebnis
+</form>

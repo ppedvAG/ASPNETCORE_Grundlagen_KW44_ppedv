@@ -1,0 +1,15 @@
+﻿@page
+@model RazorPageSamples.Pages.Einstieg.CalcModel
+@{
+}
+
+
+<form method="post">
+    <input name="eins" /> <br />
+    <input name="zwei" />
+
+    <hr/>
+
+    <button type="submit">addieren</button>
+    @Model.Ergebnis 
+</form>
