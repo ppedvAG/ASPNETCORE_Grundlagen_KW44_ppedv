@@ -1,0 +1,10 @@
+﻿@page
+@using RazorPages_IOCContainer_Sample.Services
+@inject ITimeService timeService
+
+@model RazorPages_IOCContainer_Sample.Pages.Sample4Model
+@{
+}
+
+
+@timeService.GetCurrentTime();

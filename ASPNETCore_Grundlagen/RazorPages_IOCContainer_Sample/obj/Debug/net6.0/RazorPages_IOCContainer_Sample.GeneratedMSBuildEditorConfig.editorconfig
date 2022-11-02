@@ -1,0 +1,60 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RazorPages_IOCContainer_Sample
+build_property.RootNamespace = RazorPages_IOCContainer_Sample
+build_property.ProjectDir = C:\Aktueller Kurs\ASPNETCORE_Grundlagen_KW44_ppedv\ASPNETCore_Grundlagen\RazorPages_IOCContainer_Sample\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Aktueller Kurs\ASPNETCORE_Grundlagen_KW44_ppedv\ASPNETCore_Grundlagen\RazorPages_IOCContainer_Sample
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/RazorPages_IOCContainer_Sample/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/RazorPages_IOCContainer_Sample/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/RazorPages_IOCContainer_Sample/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/RazorPages_IOCContainer_Sample/Pages/Sample1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/RazorPages_IOCContainer_Sample/Pages/Sample2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/RazorPages_IOCContainer_Sample/Pages/Sample3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlMy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/RazorPages_IOCContainer_Sample/Pages/Sample4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlNC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/RazorPages_IOCContainer_Sample/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/RazorPages_IOCContainer_Sample/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/RazorPages_IOCContainer_Sample/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/RazorPages_IOCContainer_Sample/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ljhorvf55x

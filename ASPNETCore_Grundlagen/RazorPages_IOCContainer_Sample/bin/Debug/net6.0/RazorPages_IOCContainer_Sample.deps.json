@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RazorPages_IOCContainer_Sample/1.0.0": {
+        "runtime": {
+          "RazorPages_IOCContainer_Sample.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RazorPages_IOCContainer_Sample/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
