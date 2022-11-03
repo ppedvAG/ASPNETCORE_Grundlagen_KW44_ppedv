@@ -1,0 +1,65 @@
+﻿@page
+@model RazorPage_EfCore_with_InMemoryDB.Pages.Movies.CreateModel
+@{
+}
+
+
+<div class="row">
+
+    <form method="post">
+        <!-- Title Eingabe-->
+        <div class="form-group">
+            <label asp-for="Movie.Title" class="control-label"></label>
+            <input asp-for="Movie.Title" class="form-control" />
+            <span asp-validation-for="Movie.Title" class="text-danger"></span>
+        </div>
+
+        <!-- Title Description-->
+        <div class="form-group">
+            <label asp-for="Movie.Description" class="control-label"></label>
+            <input asp-for="Movie.Description" class="form-control" />
+            <span asp-validation-for="Movie.Description" class="text-danger"></span>
+        </div>
+
+        <!-- Title Preis-->
+        <div class="form-group">
+            <label asp-for="Movie.Preis" class="control-label"></label>
+            <input asp-for="Movie.Preis" class="form-control" />
+            <span asp-validation-for="Movie.Preis" class="text-danger"></span>
+        </div>
+
+         <!-- Title Genre-->
+        <div class="form-group">
+            <label asp-for="Movie.Genre" class="control-label"></label>
+            @*<input asp-for="Movie.Genre" class="form-control" />*@
+            <select asp-for="Movie.Genre" class="form-control" asp-items="Html.GetEnumSelectList<GenreType>()"></select>
+            <span asp-validation-for="Movie.Genre" class="text-danger"></span>
+        </div>
+
+
+        <!-- Title year-->
+        <div class="form-group">
+            <label asp-for="Movie.Year" class="control-label"></label>
+            <input asp-for="Movie.Year" class="form-control" />
+            <span asp-validation-for="Movie.Year" class="text-danger"></span>
+        </div>
+
+        <!-- Title WinOscar-->
+        <div class="form-group">
+            <label asp-for="Movie.WinOscar" class="control-label"></label>
+            @*<input asp-for="Movie.WinOscar" type="checkbox" class="form-control" />*@
+            @Html.CheckBoxFor(model => model.Movie.WinOscar)
+            <span asp-validation-for="Movie.WinOscar" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+    </form>
+
+
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

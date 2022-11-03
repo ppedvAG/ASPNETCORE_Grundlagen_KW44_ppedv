@@ -1,0 +1,29 @@
+﻿@using RazorPage_Scaffolded.Models
+@model IEnumerable<RazorPage_Scaffolded.Models.Movie>
+
+
+
+@{
+    Movie movieWithLowestPrice = null;
+
+    //Sind Movies verfügbar
+    if (Model.Any())
+    {
+        movieWithLowestPrice = Model.OrderBy(m => m.Preis).First();
+    }
+
+
+    @if(movieWithLowestPrice != null)
+    {
+        <div style="background-color:orange">
+            <p>Sonderangebot</p>
+            <div class="card">
+                <div class="card-body">
+                    <p>@movieWithLowestPrice.Title</p>
+                    <p>@movieWithLowestPrice.Preis</p>
+                </div>
+            </div>
+        </div>
+    }
+
+}

@@ -13,8 +13,8 @@ builder.Services.AddDbContext<MovieDbContext>(options =>
 {
     //Optionen erweitern sich mit weiteren EFCore-Packages
 
-    options.UseInMemoryDatabase("MovieDatagase");
-
+    //options.UseInMemoryDatabase("MovieDatagase");
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MovieDb"));
 
     //Lazy Loading -> wenn man EfCore.Proxies intstalliert, erweitert sich
     //options.UseLazyLoadingProxies

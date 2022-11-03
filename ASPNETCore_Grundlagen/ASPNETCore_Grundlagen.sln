@@ -51,6 +51,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul006_RazorPages_mit EFC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPage_EfCore_with_InMemoryDB", "RazorPage_EfCore_with_InMemoryDB\RazorPage_EfCore_with_InMemoryDB.csproj", "{EBA4BE20-C06C-4B5F-8C62-3727AC52C85B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul007_RazorPages_mit_Scaffolded", "Modul007_RazorPages_mit_Scaffolded", "{ABD6A32B-F438-42BB-A286-0D90434C69C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPage_Scaffolded_PartialViews_HTMLHelper_TagHelper", "RazorPage_Scaffolded\RazorPage_Scaffolded_PartialViews_HTMLHelper_TagHelper.csproj", "{4BB2A956-266A-46B0-B063-0FF68ABAB4C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +117,10 @@ Global
 		{EBA4BE20-C06C-4B5F-8C62-3727AC52C85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBA4BE20-C06C-4B5F-8C62-3727AC52C85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBA4BE20-C06C-4B5F-8C62-3727AC52C85B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB2A956-266A-46B0-B063-0FF68ABAB4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB2A956-266A-46B0-B063-0FF68ABAB4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB2A956-266A-46B0-B063-0FF68ABAB4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB2A956-266A-46B0-B063-0FF68ABAB4C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -131,6 +139,7 @@ Global
 		{DED172BF-42DB-4E90-AECE-8B79CE38D3AA} = {74E2E988-D64E-4B01-B9F4-9F803636EC49}
 		{7B9BA962-9614-4E9F-BD3D-385D6F59B6AF} = {25118A3C-5768-4129-AFB3-E138DED8E676}
 		{EBA4BE20-C06C-4B5F-8C62-3727AC52C85B} = {4F5EDD70-864E-4C14-8F5B-6D3B69FBB0C2}
+		{4BB2A956-266A-46B0-B063-0FF68ABAB4C2} = {ABD6A32B-F438-42BB-A286-0D90434C69C9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A34ADC4B-6ECA-4463-A6B2-B46E5E71E353}

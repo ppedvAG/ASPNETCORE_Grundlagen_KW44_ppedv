@@ -26,38 +26,38 @@ Modul 2: ASP.NET Core Grundlagen
 - [ ] Logging mit Serilog
 
 Modul 3: Razor Pages und Template Synatax
-- [ ] Projektstruktur Komplettübersicht
-- [ ] Razor Pages 
-    - [ ] Razor Page
-    - [ ] Razor Syntax
-    - [ ] QueryString / Route - Paramter an Get-Methode
-    - [ ] Page-Handler 
-    - [ ] Get / Post - Methoden und Konzept
-    - [ ] Tabellen / Formulare
-    - [ ] Asp-Handler
+- [x] Projektstruktur Komplettübersicht
+- [x] Razor Pages 
+    - [x] Razor Page
+    - [x] Razor Syntax
+    - [x] QueryString / Route - Paramter an Get-Methode
+    - [x] Page-Handler 
+    - [x] Get / Post - Methoden und Konzept
+    - [x] Tabellen / Formulare
+    - [x] Asp-Handler
     
 Modul 4: 
-- [ ] Layouts
+- [x] Layouts
 - [ ] Bootstrap
 
 Modul 5: EF Core
-- [ ] Entity Framework Core
-- [ ] CodeFirst
-- [ ] DataAnnotations
-- [ ] Scaffolding
-- [ ] InMemory-Database / SqlProvider
+- [x] Entity Framework Core
+- [x] CodeFirst
+- [x] DataAnnotations
+- [x] Scaffolding
+- [x] InMemory-Database / SqlProvider
 
 Modul bei Modul 5: Modelvalidierung
-- [ ]  Clientseitige Validierung
-- [ ]  BugFix für Clientseitige Validierung
-- [ ]  Serverseitige Validierung
+- [x]  Clientseitige Validierung
+- [x]  BugFix für Clientseitige Validierung
+- [x]  Serverseitige Validierung
 
 Modul 6: 
-- [ ] Partial Views
-    - [ ] Was ist eine Partial View?
-    - [ ] Implementieren einer einfachen Partial View
-    - [ ] Razor-Syntax Redundanzen mit Partial View beheben 
-    - [ ] Partial View als Optionale View-Erweiterugen 
+- [x] Partial Views
+    - [x] Was ist eine Partial View?
+    - [x] Implementieren einer einfachen Partial View
+    - [x] Razor-Syntax Redundanzen mit Partial View beheben 
+    - [x] Partial View als Optionale View-Erweiterugen 
 
 
 Modul 6:  Modul006_ViewComponents_Localisations
