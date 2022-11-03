@@ -11,6 +11,9 @@ namespace RazorPages_IOCContainer_Sample.Pages
         public void OnGet([FromServices] ITimeService timeService)
         {
             CurrentTime = timeService.GetCurrentTime();
+
+
+            //wenn ich nur mit timeService und CurrentTime weglassen würde -> wäre loak
         }
     }
 }

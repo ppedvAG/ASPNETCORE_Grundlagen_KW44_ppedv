@@ -37,11 +37,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul004_DefaultProject_Ove
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul005_RazorPages", "Modul005_RazorPages", "{74E2E988-D64E-4B01-B9F4-9F803636EC49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentedDefaultProject", "CommentedDefaultProject\CommentedDefaultProject.csproj", "{F5FCC600-C111-4481-A18D-486F1B4F645C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommentedDefaultProject", "CommentedDefaultProject\CommentedDefaultProject.csproj", "{F5FCC600-C111-4481-A18D-486F1B4F645C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultProjekctInNET5", "DefaultProjekctInNET5\DefaultProjekctInNET5.csproj", "{022CD43B-D3AA-4789-B4FF-F95C7736DF6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultProjekctInNET5", "DefaultProjekctInNET5\DefaultProjekctInNET5.csproj", "{022CD43B-D3AA-4789-B4FF-F95C7736DF6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPageSamples", "RazorPageSamples\RazorPageSamples.csproj", "{DED172BF-42DB-4E90-AECE-8B79CE38D3AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPageSamples", "RazorPageSamples\RazorPageSamples.csproj", "{DED172BF-42DB-4E90-AECE-8B79CE38D3AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wiederholung Tag 1", "Wiederholung Tag 1", "{25118A3C-5768-4129-AFB3-E138DED8E676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPages_IOCContainer_Sample_Wdh", "RazorPages_IOCContainer_Sample_Wdh\RazorPages_IOCContainer_Sample_Wdh.csproj", "{7B9BA962-9614-4E9F-BD3D-385D6F59B6AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul006_RazorPages_mit EFCore_mit_InMemoryDb", "Modul006_RazorPages_mit EFCore_mit_InMemoryDb", "{4F5EDD70-864E-4C14-8F5B-6D3B69FBB0C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPage_EfCore_with_InMemoryDB", "RazorPage_EfCore_with_InMemoryDB\RazorPage_EfCore_with_InMemoryDB.csproj", "{EBA4BE20-C06C-4B5F-8C62-3727AC52C85B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +105,14 @@ Global
 		{DED172BF-42DB-4E90-AECE-8B79CE38D3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DED172BF-42DB-4E90-AECE-8B79CE38D3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DED172BF-42DB-4E90-AECE-8B79CE38D3AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B9BA962-9614-4E9F-BD3D-385D6F59B6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9BA962-9614-4E9F-BD3D-385D6F59B6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B9BA962-9614-4E9F-BD3D-385D6F59B6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B9BA962-9614-4E9F-BD3D-385D6F59B6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA4BE20-C06C-4B5F-8C62-3727AC52C85B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA4BE20-C06C-4B5F-8C62-3727AC52C85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA4BE20-C06C-4B5F-8C62-3727AC52C85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA4BE20-C06C-4B5F-8C62-3727AC52C85B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,6 +129,8 @@ Global
 		{F5FCC600-C111-4481-A18D-486F1B4F645C} = {02C33E6C-191E-45F7-83C1-A45192A3CA7A}
 		{022CD43B-D3AA-4789-B4FF-F95C7736DF6B} = {02C33E6C-191E-45F7-83C1-A45192A3CA7A}
 		{DED172BF-42DB-4E90-AECE-8B79CE38D3AA} = {74E2E988-D64E-4B01-B9F4-9F803636EC49}
+		{7B9BA962-9614-4E9F-BD3D-385D6F59B6AF} = {25118A3C-5768-4129-AFB3-E138DED8E676}
+		{EBA4BE20-C06C-4B5F-8C62-3727AC52C85B} = {4F5EDD70-864E-4C14-8F5B-6D3B69FBB0C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A34ADC4B-6ECA-4463-A6B2-B46E5E71E353}

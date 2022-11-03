@@ -1,0 +1,151 @@
+﻿@page
+@model RazorPageSamples.Pages.RazorPageSyntaxSampleModel
+
+
+@{
+
+
+
+
+}
+
+
+@*Ich bin ein Kommentar*@
+
+
+@*Einfache Ausgabe von Variablen*@
+<p>@Model.Username</p>
+
+<p>Ausgabe des [AT] - Zeichens</p>
+<p>@@Model.Username</p>
+
+<hr />
+
+<p>Lokale Variable mit Code-Block definiert</p>
+
+@{
+    Person person = new Person("Peter Fischer", 62);
+
+}
+
+<p>@person.Name</p>
+<p>@person.Age</p>
+
+
+<hr />
+
+@* Implizieter Razor-Ausdruck *@
+<p>Verwenden von C# - Klassen</p>
+<p>@DateTime.Now.ToShortTimeString()</p>
+<p>Ist das Jahr 2016 ein Schaltjahr? @DateTime.IsLeapYear(2016)</p>
+
+
+<p>Welches Datum war vor 7 Tagen @(DateTime.Now - TimeSpan.FromDays(7))</p>
+<hr />
+
+<p>For-Schleifen</p>
+@for(int index = 0; index < Model.Peoples.Length; index++)
+{
+    <p>@Model.Peoples[index].Name</p>
+    <p>@Model.Peoples[index].Name</p>
+}
+
+
+<p>foreach</p>
+@foreach(Person currentPerson in Model.Peoples)
+{
+    <p>@currentPerson.Name - @currentPerson.Age</p>
+}
+
+<hr />
+@{
+    int value = 122;
+}
+
+@if (value % 2 == 0)
+{
+    <p>@value is durch 2 teilbar</p>
+}
+else
+{
+    <p>@value ist nicht durch 2 teilbar</p>
+}
+
+
+<p>switch sample</p>
+
+@switch (value)
+{
+    case 124:
+        <p>The value is 124</p>
+        break;
+    default:
+        <p>unerwarteter Wert</p>
+        break;
+}
+
+
+<hr />
+
+
+@using(Html.BeginForm())
+{
+    <div>
+        Email: <input type="email" id="Email" value="">
+    </div>
+}
+
+@try
+{
+    throw new InvalidOperationException("You did something invalid");
+}
+catch (Exception ex)
+{
+    <p>@ex.Message</p>
+}
+finally
+{
+    <p>the finally statement</p>
+}
+
+
+<hr/ >
+
+@lock (Model.Username)
+{
+
+}
+
+@* @inject IRequestCounter counter *@
+
+@implements IDisposable
+@functions {
+    private bool _isDisposed;
+
+    public void Dispose()
+    {
+        _isDisposed = true;
+    }
+}
+
+
+@*Section wird für das Einbinden von Scripten verwendet*@
+@section Scripts {
+    <script type="text/javascript" src="~/scripts/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            alert("Test");
+        });
+    </script>
+}
+
+
+
+
+
+
+
+
+
+

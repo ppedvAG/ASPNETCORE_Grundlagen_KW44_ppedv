@@ -1,0 +1,61 @@
+﻿@page
+@using RazorPage_EfCore_with_InMemoryDB.Models
+@model RazorPage_EfCore_with_InMemoryDB.Pages.Movies.IndexModel
+@{
+}
+
+
+
+<table class="table">
+    <thead>
+        <!-- tr Column-Zeile -->
+        <tr>
+            <th>
+                <!-- DisplayNameFor gibt den Variablennamen aus -> z.b Title/Description... -->
+                @Html.DisplayNameFor(model=>model.Movies[0].Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Movies[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Movies[0].Preis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Movies[0].Genre)
+            </th>
+            <th>
+                <!-- letzte Tabellenspalte ist leer -->
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach(Movie currentMovie in Model.Movies)
+        {
+            <!-- Tabellen-Zeile -->
+            <tr>
+                <td>
+                    <!-- Display for gibt den Wert der Variable aus-->
+                    @Html.DisplayFor(modelItem => currentMovie.Title)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => currentMovie.Description)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => currentMovie.Preis)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => currentMovie.Genre)
+                </td>
+                <td>
+                    <a asp-page="./Details" asp-route-id="@currentMovie.Id">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+
+</table>

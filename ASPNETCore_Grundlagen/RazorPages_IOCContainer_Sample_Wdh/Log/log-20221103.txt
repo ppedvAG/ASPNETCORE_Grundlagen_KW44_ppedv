@@ -1,0 +1,155 @@
+2022-11-03 09:22:02.203 +01:00 [INF] User profile is available. Using 'C:\Users\kw4\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-03 09:22:02.511 +01:00 [INF] Starting web host
+2022-11-03 09:22:03.151 +01:00 [INF] Now listening on: https://localhost:7017
+2022-11-03 09:22:03.156 +01:00 [INF] Now listening on: http://localhost:5017
+2022-11-03 09:22:03.165 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-03 09:22:03.169 +01:00 [INF] Hosting environment: Development
+2022-11-03 09:22:03.172 +01:00 [INF] Content root path: C:\Aktueller Kurs\ASPNETCORE_Grundlagen_KW44_ppedv\ASPNETCore_Grundlagen\RazorPages_IOCContainer_Sample_Wdh\
+2022-11-03 09:22:04.609 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/ - -
+2022-11-03 09:22:05.282 +01:00 [INF] Executing endpoint '/Index'
+2022-11-03 09:22:05.397 +01:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2022-11-03 09:22:05.443 +01:00 [INF] Executing handler method RazorPages_IOCContainer_Sample_Wdh.Pages.IndexModel.OnGet - ModelState is "Valid"
+2022-11-03 09:22:05.456 +01:00 [INF] Indexseite wurde aufgerufen
+2022-11-03 09:22:05.459 +01:00 [INF] Executed handler method OnGet, returned result .
+2022-11-03 09:22:05.474 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2022-11-03 09:22:05.478 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2022-11-03 09:22:05.920 +01:00 [INF] Executed page /Index in 508.3877ms
+2022-11-03 09:22:05.927 +01:00 [INF] Executed endpoint '/Index'
+2022-11-03 09:22:06.001 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/ - - - 200 - text/html;+charset=utf-8 1571.8319ms
+2022-11-03 09:22:06.012 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/lib/bootstrap/dist/css/bootstrap.min.css - -
+2022-11-03 09:22:06.020 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - -
+2022-11-03 09:22:06.063 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2022-11-03 09:22:06.060 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/lib/jquery/dist/jquery.min.js - -
+2022-11-03 09:22:06.036 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2022-11-03 09:22:06.043 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/RazorPages_IOCContainer_Sample_Wdh.styles.css?v=WPv-FryKkHl2cDgXzdXwHz0rKq5Q6Fb8fzWLxUWw1Cg - -
+2022-11-03 09:22:06.074 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2022-11-03 09:22:06.095 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_vs/browserLink - -
+2022-11-03 09:22:06.107 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - - - 200 12038 application/javascript;+charset=utf-8 88.8814ms
+2022-11-03 09:22:06.138 +01:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2022-11-03 09:22:06.138 +01:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2022-11-03 09:22:06.138 +01:00 [INF] The file /css/site.css was not modified
+2022-11-03 09:22:06.138 +01:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2022-11-03 09:22:06.138 +01:00 [INF] The file /RazorPages_IOCContainer_Sample_Wdh.styles.css was not modified
+2022-11-03 09:22:06.138 +01:00 [INF] The file /js/site.js was not modified
+2022-11-03 09:22:06.144 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 81.0929ms
+2022-11-03 09:22:06.146 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 102.5320ms
+2022-11-03 09:22:06.149 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 304 - text/css 113.2789ms
+2022-11-03 09:22:06.154 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 142.5556ms
+2022-11-03 09:22:06.159 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/RazorPages_IOCContainer_Sample_Wdh.styles.css?v=WPv-FryKkHl2cDgXzdXwHz0rKq5Q6Fb8fzWLxUWw1Cg - - - 304 - text/css 116.8211ms
+2022-11-03 09:22:06.159 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.7264ms
+2022-11-03 09:22:06.162 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 88.2472ms
+2022-11-03 09:23:01.754 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/Privacy - -
+2022-11-03 09:23:01.771 +01:00 [INF] Executing endpoint '/Privacy'
+2022-11-03 09:23:01.775 +01:00 [INF] Route matched with {page = "/Privacy"}. Executing page /Privacy
+2022-11-03 09:23:01.777 +01:00 [INF] Executing handler method RazorPages_IOCContainer_Sample_Wdh.Pages.PrivacyModel.OnGet - ModelState is "Valid"
+2022-11-03 09:23:01.778 +01:00 [INF] Executed handler method OnGet, returned result .
+2022-11-03 09:23:01.780 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2022-11-03 09:23:01.781 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2022-11-03 09:23:01.793 +01:00 [INF] Executed page /Privacy in 16.4314ms
+2022-11-03 09:23:01.794 +01:00 [INF] Executed endpoint '/Privacy'
+2022-11-03 09:23:01.803 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/Privacy - - - 200 - text/html;+charset=utf-8 49.6497ms
+2022-11-03 09:23:01.830 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - -
+2022-11-03 09:23:01.830 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_vs/browserLink - -
+2022-11-03 09:23:01.831 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/RazorPages_IOCContainer_Sample_Wdh.styles.css?v=WPv-FryKkHl2cDgXzdXwHz0rKq5Q6Fb8fzWLxUWw1Cg - -
+2022-11-03 09:23:01.833 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - - - 200 12038 application/javascript;+charset=utf-8 2.1527ms
+2022-11-03 09:23:01.848 +01:00 [INF] The file /RazorPages_IOCContainer_Sample_Wdh.styles.css was not modified
+2022-11-03 09:23:01.853 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/RazorPages_IOCContainer_Sample_Wdh.styles.css?v=WPv-FryKkHl2cDgXzdXwHz0rKq5Q6Fb8fzWLxUWw1Cg - - - 304 - text/css 22.1987ms
+2022-11-03 09:23:01.853 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.0267ms
+2022-11-03 09:23:02.506 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/ - -
+2022-11-03 09:23:02.509 +01:00 [INF] Executing endpoint '/Index'
+2022-11-03 09:23:02.510 +01:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2022-11-03 09:23:02.512 +01:00 [INF] Executing handler method RazorPages_IOCContainer_Sample_Wdh.Pages.IndexModel.OnGet - ModelState is "Valid"
+2022-11-03 09:23:02.513 +01:00 [INF] Indexseite wurde aufgerufen
+2022-11-03 09:23:02.514 +01:00 [INF] Executed handler method OnGet, returned result .
+2022-11-03 09:23:02.515 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2022-11-03 09:23:02.516 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2022-11-03 09:23:02.531 +01:00 [INF] Executed page /Index in 19.8344ms
+2022-11-03 09:23:02.534 +01:00 [INF] Executed endpoint '/Index'
+2022-11-03 09:23:02.538 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/ - - - 200 - text/html;+charset=utf-8 32.6439ms
+2022-11-03 09:23:02.548 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - -
+2022-11-03 09:23:02.548 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_vs/browserLink - -
+2022-11-03 09:23:02.550 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - - - 200 12038 application/javascript;+charset=utf-8 2.3005ms
+2022-11-03 09:23:02.556 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.3215ms
+2022-11-03 09:23:03.344 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/ - -
+2022-11-03 09:23:03.346 +01:00 [INF] Executing endpoint '/Index'
+2022-11-03 09:23:03.347 +01:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2022-11-03 09:23:03.348 +01:00 [INF] Executing handler method RazorPages_IOCContainer_Sample_Wdh.Pages.IndexModel.OnGet - ModelState is "Valid"
+2022-11-03 09:23:03.349 +01:00 [INF] Indexseite wurde aufgerufen
+2022-11-03 09:23:03.350 +01:00 [INF] Executed handler method OnGet, returned result .
+2022-11-03 09:23:03.351 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2022-11-03 09:23:03.352 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2022-11-03 09:23:03.358 +01:00 [INF] Executed page /Index in 10.517ms
+2022-11-03 09:23:03.360 +01:00 [INF] Executed endpoint '/Index'
+2022-11-03 09:23:03.363 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/ - - - 200 - text/html;+charset=utf-8 19.4020ms
+2022-11-03 09:23:03.373 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - -
+2022-11-03 09:23:03.373 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_vs/browserLink - -
+2022-11-03 09:23:03.375 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - - - 200 12038 application/javascript;+charset=utf-8 1.7385ms
+2022-11-03 09:23:03.389 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.5712ms
+2022-11-03 09:45:51.622 +01:00 [INF] User profile is available. Using 'C:\Users\kw4\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-03 09:45:51.895 +01:00 [INF] Starting web host
+2022-11-03 09:45:52.323 +01:00 [INF] Now listening on: https://localhost:7017
+2022-11-03 09:45:52.337 +01:00 [INF] Now listening on: http://localhost:5017
+2022-11-03 09:45:52.347 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-03 09:45:52.350 +01:00 [INF] Hosting environment: Development
+2022-11-03 09:45:52.352 +01:00 [INF] Content root path: C:\Aktueller Kurs\ASPNETCORE_Grundlagen_KW44_ppedv\ASPNETCore_Grundlagen\RazorPages_IOCContainer_Sample_Wdh\
+2022-11-03 09:45:55.460 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/ - -
+2022-11-03 09:45:55.711 +01:00 [INF] Executing endpoint '/Index'
+2022-11-03 09:45:55.957 +01:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2022-11-03 09:45:56.032 +01:00 [INF] Executing handler method RazorPages_IOCContainer_Sample_Wdh.Pages.IndexModel.OnGet - ModelState is "Valid"
+2022-11-03 09:45:56.048 +01:00 [INF] Indexseite wurde aufgerufen
+2022-11-03 09:45:56.052 +01:00 [INF] Executed handler method OnGet, returned result .
+2022-11-03 09:45:56.385 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2022-11-03 09:45:56.433 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2022-11-03 09:45:58.223 +01:00 [INF] Executed page /Index in 2246.667ms
+2022-11-03 09:45:58.230 +01:00 [INF] Executed endpoint '/Index'
+2022-11-03 09:45:58.330 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/RazorPages_IOCContainer_Sample_Wdh.styles.css?v=WPv-FryKkHl2cDgXzdXwHz0rKq5Q6Fb8fzWLxUWw1Cg - -
+2022-11-03 09:45:58.330 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - -
+2022-11-03 09:45:58.330 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2022-11-03 09:45:58.330 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2022-11-03 09:45:58.330 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/lib/jquery/dist/jquery.min.js - -
+2022-11-03 09:45:58.331 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/lib/bootstrap/dist/css/bootstrap.min.css - -
+2022-11-03 09:45:58.331 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2022-11-03 09:45:58.331 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_vs/browserLink - -
+2022-11-03 09:45:58.334 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/ - - - 200 - text/html;+charset=utf-8 2889.7940ms
+2022-11-03 09:45:58.347 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - - - 200 12038 application/javascript;+charset=utf-8 17.0685ms
+2022-11-03 09:45:58.405 +01:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2022-11-03 09:45:58.405 +01:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2022-11-03 09:45:58.410 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 80.9367ms
+2022-11-03 09:45:58.405 +01:00 [INF] The file /js/site.js was not modified
+2022-11-03 09:45:58.405 +01:00 [INF] The file /RazorPages_IOCContainer_Sample_Wdh.styles.css was not modified
+2022-11-03 09:45:58.405 +01:00 [INF] The file /css/site.css was not modified
+2022-11-03 09:45:58.415 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 85.8646ms
+2022-11-03 09:45:58.405 +01:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2022-11-03 09:45:58.450 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 304 - text/css 120.0278ms
+2022-11-03 09:45:58.450 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 119.0512ms
+2022-11-03 09:45:58.465 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/RazorPages_IOCContainer_Sample_Wdh.styles.css?v=WPv-FryKkHl2cDgXzdXwHz0rKq5Q6Fb8fzWLxUWw1Cg - - - 304 - text/css 136.3930ms
+2022-11-03 09:45:58.465 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 133.9126ms
+2022-11-03 09:45:58.466 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 135.1836ms
+2022-11-03 09:46:20.996 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/RazorPageSyntaxSample - -
+2022-11-03 09:46:21.003 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/RazorPageSyntaxSample - - - 404 0 - 6.8866ms
+2022-11-03 09:46:50.292 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/RazorPageSyntaxSample - -
+2022-11-03 09:46:50.297 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/RazorPageSyntaxSample - - - 404 0 - 4.4138ms
+2022-11-03 09:47:07.838 +01:00 [INF] User profile is available. Using 'C:\Users\kw4\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-03 09:47:08.556 +01:00 [INF] Starting web host
+2022-11-03 09:47:09.339 +01:00 [INF] Now listening on: https://localhost:7017
+2022-11-03 09:47:09.343 +01:00 [INF] Now listening on: http://localhost:5017
+2022-11-03 09:47:09.354 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-03 09:47:09.357 +01:00 [INF] Hosting environment: Development
+2022-11-03 09:47:09.360 +01:00 [INF] Content root path: C:\Aktueller Kurs\ASPNETCORE_Grundlagen_KW44_ppedv\ASPNETCore_Grundlagen\RazorPages_IOCContainer_Sample_Wdh\
+2022-11-03 09:47:11.174 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/ - -
+2022-11-03 09:47:11.359 +01:00 [INF] Executing endpoint '/Index'
+2022-11-03 09:47:11.462 +01:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2022-11-03 09:47:11.496 +01:00 [INF] Executing handler method RazorPages_IOCContainer_Sample_Wdh.Pages.IndexModel.OnGet - ModelState is "Valid"
+2022-11-03 09:47:11.507 +01:00 [INF] Indexseite wurde aufgerufen
+2022-11-03 09:47:11.509 +01:00 [INF] Executed handler method OnGet, returned result .
+2022-11-03 09:47:11.520 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2022-11-03 09:47:11.522 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2022-11-03 09:47:11.900 +01:00 [INF] Executed page /Index in 422.5791ms
+2022-11-03 09:47:11.909 +01:00 [INF] Executed endpoint '/Index'
+2022-11-03 09:47:12.020 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_vs/browserLink - -
+2022-11-03 09:47:12.020 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - -
+2022-11-03 09:47:12.022 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/ - - - 200 - text/html;+charset=utf-8 860.6075ms
+2022-11-03 09:47:12.054 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - - - 200 12038 application/javascript;+charset=utf-8 34.1937ms
+2022-11-03 09:47:12.095 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 75.3694ms
+2022-11-03 09:47:17.924 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7017/RazorPageSyntaxSample - -
+2022-11-03 09:47:17.930 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7017/RazorPageSyntaxSample - - - 404 0 - 5.8251ms

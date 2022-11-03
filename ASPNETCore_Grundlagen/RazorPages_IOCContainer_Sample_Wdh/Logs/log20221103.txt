@@ -1,0 +1,5 @@
+2022-11-03 09:14:28.337 +01:00 [INF] Starting web host
+2022-11-03 09:14:33.454 +01:00 [INF] Indexseite wurde aufgerufen
+2022-11-03 09:14:41.298 +01:00 [INF] Indexseite wurde aufgerufen
+2022-11-03 09:14:42.304 +01:00 [INF] Indexseite wurde aufgerufen
+2022-11-03 09:14:43.285 +01:00 [INF] Indexseite wurde aufgerufen

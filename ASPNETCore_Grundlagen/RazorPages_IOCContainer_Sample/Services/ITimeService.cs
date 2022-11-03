@@ -4,4 +4,9 @@
     {
         public string GetCurrentTime();
     }
+
+    public interface ITimeService2
+    {
+        public string GetCurrentTime();
+    }
 }
