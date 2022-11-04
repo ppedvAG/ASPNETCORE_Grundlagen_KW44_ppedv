@@ -31,6 +31,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/StateManagementSample/Pages/SessionSample/SessionEnd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2Vzc2lvblNhbXBsZVxTZXNzaW9uRW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/StateManagementSample/Pages/SessionSample/SessionStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2Vzc2lvblNhbXBsZVxTZXNzaW9uU3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/StateManagementSample/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

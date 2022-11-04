@@ -1,0 +1,124 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GeoRelationSample
+build_property.RootNamespace = GeoRelationSample
+build_property.ProjectDir = C:\Aktueller Kurs\ASPNETCORE_Grundlagen_KW44_ppedv\ASPNETCore_Grundlagen\GeoRelationSample\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Aktueller Kurs\ASPNETCORE_Grundlagen_KW44_ppedv\ASPNETCore_Grundlagen\GeoRelationSample
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Continents/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGluZW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Continents/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGluZW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Continents/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGluZW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Continents/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGluZW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Continents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGluZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Countries/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRyaWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Countries/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRyaWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Countries/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRyaWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Countries/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRyaWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Countries/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRyaWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/LanguagesInCountries/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFuZ3VhZ2VzSW5Db3VudHJpZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/LanguagesInCountries/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFuZ3VhZ2VzSW5Db3VudHJpZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/LanguagesInCountries/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFuZ3VhZ2VzSW5Db3VudHJpZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/LanguagesInCountries/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFuZ3VhZ2VzSW5Db3VudHJpZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/LanguagesInCountries/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFuZ3VhZ2VzSW5Db3VudHJpZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Languages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFuZ3VhZ2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Languages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFuZ3VhZ2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Languages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFuZ3VhZ2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Languages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFuZ3VhZ2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Languages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFuZ3VhZ2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/GeoRelationSample/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-z8g11klrbd

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "VjVOLpjGIUIua6v3XQ5r7OBan/vg747g1K/21Ej5SBEnYVdvUBcpej8l3e+KoB+M2yHZYaLcyAWeBDrvrClFMg==",
+  "success": true,
+  "projectFilePath": "C:\\Aktueller Kurs\\ASPNETCORE_Grundlagen_KW44_ppedv\\ASPNETCore_Grundlagen\\PictureUploadAndGallery\\PictureUploadAndGallery.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\kw4\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

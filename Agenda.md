@@ -69,15 +69,15 @@ Modul 7:
 - [x] Cache Tag,
 - [x] ViewData
 - [x] TempData
-- [ ] Session
+- [x] Session
 
 Modul 10: Routing
-- [ ] RouteAttributes
-- [ ] RouteTemplates
-- [ ] FriendlyRoutes
+- [x] RouteAttributes
+- [x] RouteTemplates
+- [x] FriendlyRoutes
   
 Modul 11: 
-- [ ] Identity UI 
+- [x] Identity UI 
 
 Modul 12:
 - [ ] Foto-Gallery (Formulare und Dateien)
@@ -87,7 +87,7 @@ Modul 12:
 Modul 13: Erweiterungen in HTML:
 - [x] TagHelpers
 - [x] HTMLHelpers
-- [x] SignalR -> Hanne3s
+- [x] SignalR -> Hannes
 
 
 
