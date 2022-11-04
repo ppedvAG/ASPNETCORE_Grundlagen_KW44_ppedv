@@ -1,0 +1,11 @@
+﻿@page
+@model StateManagementSample.Pages.TempDataSample.TempDataSampleStep1Model
+@{
+    //Keep gibt an, dass ALLE Einträge in TempData nochmals verwendet werden düfren 
+    string email = TempData["Email"].ToString();
+    TempData.Keep();
+}
+
+@email
+
+<a asp-page="TempDataSampleStep2">Weiter zu Step2-Razor Page</a>

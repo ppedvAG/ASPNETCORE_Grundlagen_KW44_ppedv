@@ -71,10 +71,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/RazorPage_Scaffolded/Pages/TagHelper/Sample1.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFnSGVscGVyXFNhbXBsZTEuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Aktueller Kurs/ASPNETCORE_Grundlagen_KW44_ppedv/ASPNETCore_Grundlagen/RazorPage_Scaffolded/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

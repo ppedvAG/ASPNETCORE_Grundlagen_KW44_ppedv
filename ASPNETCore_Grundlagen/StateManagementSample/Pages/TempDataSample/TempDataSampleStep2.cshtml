@@ -1,0 +1,12 @@
+﻿@page
+@model StateManagementSample.Pages.TempDataSample.TempDataSampleStep2Model
+@{
+    string email = TempData["Email"].ToString();
+    TempData.Keep();
+
+}
+
+@email
+
+
+<a asp-page="TempDataSampleStep3">Weiter zu Step3-Razor Page</a>

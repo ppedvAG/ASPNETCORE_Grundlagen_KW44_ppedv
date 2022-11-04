@@ -25,6 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		..\Agenda.md = ..\Agenda.md
 		Links.md = Links.md
+		Todos.md = Todos.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DIScopeVsTransientVsSingletonSample", "..\DIScopeVsTransientVsSingletonSample\DIScopeVsTransientVsSingletonSample.csproj", "{A768D37C-80A2-4283-B72A-D7FEC914764C}"
@@ -45,15 +46,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPageSamples", "RazorPa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wiederholung Tag 1", "Wiederholung Tag 1", "{25118A3C-5768-4129-AFB3-E138DED8E676}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPages_IOCContainer_Sample_Wdh", "RazorPages_IOCContainer_Sample_Wdh\RazorPages_IOCContainer_Sample_Wdh.csproj", "{7B9BA962-9614-4E9F-BD3D-385D6F59B6AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPages_IOCContainer_Sample_Wdh", "RazorPages_IOCContainer_Sample_Wdh\RazorPages_IOCContainer_Sample_Wdh.csproj", "{7B9BA962-9614-4E9F-BD3D-385D6F59B6AF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul006_RazorPages_mit EFCore_mit_InMemoryDb", "Modul006_RazorPages_mit EFCore_mit_InMemoryDb", "{4F5EDD70-864E-4C14-8F5B-6D3B69FBB0C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPage_EfCore_with_InMemoryDB", "RazorPage_EfCore_with_InMemoryDB\RazorPage_EfCore_with_InMemoryDB.csproj", "{EBA4BE20-C06C-4B5F-8C62-3727AC52C85B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPage_EfCore_with_InMemoryDB", "RazorPage_EfCore_with_InMemoryDB\RazorPage_EfCore_with_InMemoryDB.csproj", "{EBA4BE20-C06C-4B5F-8C62-3727AC52C85B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul007_RazorPages_mit_Scaffolded", "Modul007_RazorPages_mit_Scaffolded", "{ABD6A32B-F438-42BB-A286-0D90434C69C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPage_Scaffolded_PartialViews_HTMLHelper_TagHelper", "RazorPage_Scaffolded\RazorPage_Scaffolded_PartialViews_HTMLHelper_TagHelper.csproj", "{4BB2A956-266A-46B0-B063-0FF68ABAB4C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPage_Scaffolded_PartialViews_HTMLHelper_TagHelper", "RazorPage_Scaffolded\RazorPage_Scaffolded_PartialViews_HTMLHelper_TagHelper.csproj", "{4BB2A956-266A-46B0-B063-0FF68ABAB4C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul013_TagHelpers", "Modul013_TagHelpers", "{47C98B5B-E584-4007-B01B-0A0FD2E99250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagHelperSample", "TagHelperSample\TagHelperSample.csproj", "{B2A6B6C2-F444-4FF8-A69E-BE9925609C29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul008_ViewComponent_Localization", "Modul008_ViewComponent_Localization", "{31B8FDB6-F6B4-4C5B-9D05-201FE54855B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalizationCultureSampe1", "Beispiel3_DataAnnotations\Sample\LocalizationCultureSampe1\LocalizationCultureSampe1.csproj", "{6E358429-FF5C-4389-8F01-EE129F26A87B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication", "..\aspnetcore_localization_sample\WebApplication\WebApplication.csproj", "{325F072A-F7C1-445B-A595-C7987AA15009}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul009_StateManagement", "Modul009_StateManagement", "{538EE27D-8AEC-483D-811F-BE0BD3DC8FE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateManagementSample", "StateManagementSample\StateManagementSample.csproj", "{D29E232F-6B71-4526-9DD8-5599B82959C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +136,22 @@ Global
 		{4BB2A956-266A-46B0-B063-0FF68ABAB4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BB2A956-266A-46B0-B063-0FF68ABAB4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BB2A956-266A-46B0-B063-0FF68ABAB4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A6B6C2-F444-4FF8-A69E-BE9925609C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A6B6C2-F444-4FF8-A69E-BE9925609C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A6B6C2-F444-4FF8-A69E-BE9925609C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A6B6C2-F444-4FF8-A69E-BE9925609C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E358429-FF5C-4389-8F01-EE129F26A87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E358429-FF5C-4389-8F01-EE129F26A87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E358429-FF5C-4389-8F01-EE129F26A87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E358429-FF5C-4389-8F01-EE129F26A87B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{325F072A-F7C1-445B-A595-C7987AA15009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{325F072A-F7C1-445B-A595-C7987AA15009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{325F072A-F7C1-445B-A595-C7987AA15009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{325F072A-F7C1-445B-A595-C7987AA15009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D29E232F-6B71-4526-9DD8-5599B82959C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D29E232F-6B71-4526-9DD8-5599B82959C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D29E232F-6B71-4526-9DD8-5599B82959C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D29E232F-6B71-4526-9DD8-5599B82959C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -140,6 +171,10 @@ Global
 		{7B9BA962-9614-4E9F-BD3D-385D6F59B6AF} = {25118A3C-5768-4129-AFB3-E138DED8E676}
 		{EBA4BE20-C06C-4B5F-8C62-3727AC52C85B} = {4F5EDD70-864E-4C14-8F5B-6D3B69FBB0C2}
 		{4BB2A956-266A-46B0-B063-0FF68ABAB4C2} = {ABD6A32B-F438-42BB-A286-0D90434C69C9}
+		{B2A6B6C2-F444-4FF8-A69E-BE9925609C29} = {47C98B5B-E584-4007-B01B-0A0FD2E99250}
+		{6E358429-FF5C-4389-8F01-EE129F26A87B} = {31B8FDB6-F6B4-4C5B-9D05-201FE54855B2}
+		{325F072A-F7C1-445B-A595-C7987AA15009} = {31B8FDB6-F6B4-4C5B-9D05-201FE54855B2}
+		{D29E232F-6B71-4526-9DD8-5599B82959C2} = {538EE27D-8AEC-483D-811F-BE0BD3DC8FE1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A34ADC4B-6ECA-4463-A6B2-B46E5E71E353}

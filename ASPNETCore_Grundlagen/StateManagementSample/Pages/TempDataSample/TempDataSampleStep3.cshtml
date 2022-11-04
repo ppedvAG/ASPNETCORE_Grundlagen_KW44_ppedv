@@ -1,0 +1,12 @@
+﻿@page
+@model StateManagementSample.Pages.TempDataSample.TempDataSampleStep3Model
+@{
+    TempData.Keep();
+
+}
+
+@TempData["Email"]
+
+@*Gebe den Inhalt aus und unterbinde die Löschung*@
+@TempData.Peek("Email");
+

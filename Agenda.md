@@ -61,14 +61,14 @@ Modul 6:
 
 
 Modul 6:  Modul006_ViewComponents_Localisations
-- [ ] ViewComponents
-- [ ] Lokalisierung 
+- [x] ViewComponents
+- [x] Lokalisierung 
 
 
 Modul 7:
-- [ ] Cache Tag,
-- [ ] ViewData
-- [ ] TempData
+- [x] Cache Tag,
+- [x] ViewData
+- [x] TempData
 - [ ] Session
 
 Modul 10: Routing
@@ -85,9 +85,9 @@ Modul 12:
     - [ ] Thumbnail - Middleware für formatierte Fotos
 
 Modul 13: Erweiterungen in HTML:
-- [ ] TagHelpers
-- [ ] HTMLHelpers
-- [ ] SignalR -> Hanne3s
+- [x] TagHelpers
+- [x] HTMLHelpers
+- [x] SignalR -> Hanne3s
 
 
 
